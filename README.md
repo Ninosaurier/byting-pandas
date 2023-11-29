@@ -94,9 +94,3 @@ The logs are cached and you will find them in project folder _workDir/logs_.
 #### How can I change the working directory of a Docker container?
 - Please make yourself familiar with the commands of [Docker](https://docs.docker.com/compose/). Use the respective "Dockerfile" for changes. But be careful! If you change the working directory, then you must also do it in the respective configuration files of the Nginx. The **react.conf** contains the working directory where Nginx will look for the React project!  
 
-
-# License
-Legally, I don't know if I can declare the repo with a GPL3 license.
-
-But definitely feel free to copy, modify or even improve the repo. 
-I have one request: If you have any improvements, please let me know. Would love to include them too :)
